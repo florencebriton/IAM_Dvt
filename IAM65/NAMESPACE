@@ -1,0 +1,28 @@
+import("methods", "utils", "stats", "grDevices", "lattice", "tcltk", "tcltk2", "abind", "MASS", "openxlsx")
+
+useDynLib(IAM65)
+
+exportClasses(
+	"iamInput",
+	"iamArgs",
+	"iamOutput",
+	"iamOutputRep"
+)
+
+exportMethods(
+  "IAM.input",
+	"IAM.args",
+	"IAM.export",
+	"IAM.model",
+	"IAM.format",
+	"IAM.unite"
+)
+	
+export(
+  "IAM.bwplot",
+  "IAM.zone",
+  "IAM.barIC",
+  "IAM.barplot",
+  "IAM.plot"
+)
+
