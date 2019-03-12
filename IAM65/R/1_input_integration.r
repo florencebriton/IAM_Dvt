@@ -1,4 +1,4 @@
-#fonction de conversion des inputs au niveau métier Eco (inclus implémentation de l'allocation de mortalité par pêche
+#blabla fonction de conversion des inputs au niveau métier Eco (inclus implémentation de l'allocation de mortalité par pêche
 
 convertInput <- function(inp,Fq_fmi=NULL) {
 
